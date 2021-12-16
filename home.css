@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#nkBanner>img{
+    width: 100%;
+}
+#nkSecondDiv{
+    /* border: 1px solid red; */
+    height: 420px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background-color: #000000;
+    margin-top: 100px;
+}
+#nkleft{
+    /* border: 1px solid blue; */
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    grid-template-rows: 200px 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-gap:2%;
+    
+}
+#nkleft>a{
+    text-decoration: none;
+    color: black;
+}
+#nkleft>a>div{
+    /* width: 40%; */
+    /* height: 55%; */
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    background-color: #222222;
+    color: white;
+}
+
+#nkright{
+    /* border:1px solid green; */
+    color: #fffff9;
+}
+#nkText{
+    /* border:1pxsolid red; */
+    width: 70%;
+}
+#nkright>h2{
+    color:#e90182 ;
+    margin-top: 25px;
+    font-size: 18px;
+}
+#nkImg{
+    /* border:1px solid blue; */
+    width: 30%;
+    height: 5%;
+}
+#nkImg>img{
+    width: 100%;
+}
+#nkText>h3,h2,p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#nkText>p{
+    color: #e90182;
+}
+h3>span{
+    color: #a8a5a2;
+    font-weight: normal;
+}
+#nkThirdDiv{
+    /* border:1px solid red; */
+    width: 100%;
+    height: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    background: #000000;
+
+}
+#nkThirdDiv>h2,h1{
+    margin-left: 5%;
+}
+#nkSkills{
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 450px;
+    color: #fffff9;
+    margin: auto;
+    border-radius:15px;
+    display: flex;
+    background-color: #222222;
+}
+#nkSkillsText{
+    padding: 25px;
+    width: 50%;
+}
+
+#nkSkillsLogo{
+    display: flex;
+    margin-top: 60px;
+}
+#nkSkillsLogo>div{
+    
+    margin-right: 10px;
+}
+
+#nkSkillsImg{
+    width: 50%;
+}
+#nkSkillsImg>img{
+    width: 100%;
+    height: 100%;
+}
+
+/* <.......modulediv.....> */
+
+#nkModuleDiv{
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    justify-content: space-evenly;
+    background: #000000;
+}
+#nkM1,#nkM2,#nkM3{
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    background-color: #222222;
+    color: #fffff9;
+
+}
+#nkM1>img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#nkM2>img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#nkM3>img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#nkM1>h3{
+    padding: 20px;
+}
+#nkM2>h3{
+    padding: 20px;
+}
+#nkM3>h3{
+    padding: 20px;
+}
+span>i{
+    color: #e90182;
+}
