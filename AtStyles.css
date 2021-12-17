@@ -65,8 +65,8 @@ body {
   flex-shrink: 0;
   min-width: 100%;
 }
-.at_ware{
-width: 100vw;
+.at_ware {
+  width: 100vw;
 }
 .vm_sec {
   height: 450px;
@@ -219,7 +219,6 @@ width: 100vw;
   flex-direction: column;
   align-items: center;
   height: 100%;
- 
 }
 #follow {
   color: #e40084;
@@ -257,7 +256,6 @@ section {
   flex-wrap: nowrap;
   overflow-x: auto;
   margin-top: 5rem;
-  
 }
 section::-webkit-scrollbar {
   visibility: hidden;
@@ -269,8 +267,9 @@ section::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  
-  
+  box-sizing: content-box;
+  padding: 0 4rem;
+  position: relative;
 }
 .sub-tweets {
   min-width: 420px;
@@ -286,13 +285,13 @@ section::-webkit-scrollbar {
   border-radius: 5px;
 }
 #spanZero {
-position: absolute;
+  position: absolute;
 
-left: 5%;
+  left: 1%;
 }
 
-#spanOne{
+#spanOne {
   position: absolute;
-  
-  left: 95%;
+
+  left: 99%;
 }
