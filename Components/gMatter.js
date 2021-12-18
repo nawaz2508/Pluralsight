@@ -20,7 +20,7 @@ function gMatter(){
     <div id="nkTxt">Your customers won’t settle and neither should you. With Pluralsight, technology teams know more and work better together. Develop the skills you need for your top priorities. Improve workflows with actionable data. Build better—every time.</div>
     
     <div id="nkbtn">
-        <a href="#" id="nk1">VIEW PLANS</a>
+        <a href="nSubscription.html" id="nk1">VIEW PLANS</a>
         <a id="nk2">TRY FOR FREE</a>
     </div>
 </div>

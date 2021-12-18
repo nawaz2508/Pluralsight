@@ -1,173 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PS Clone</title>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="text.css">
-    <script src="https://kit.fontawesome.com/683b4b40e3.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div id="nkBanner">
-        <img src="https://www.pluralsight.com/content/pluralsight/en/global/promos/giftofpluralsight/jcr:content/main/promo_wrapper_copy_c/parsys/generic_block_108870/parsys/generic_block_363416/parsys/columns/column-parsys-1/image/image-res.img.0521d265-6ffd-4207-8da0-edbd39247f66.png"/>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
 
-    <!-- ..........1st div................................... -->
-    <div id="nkFirstDiv">
-        <img src="https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_copy_c_1058486430/image-res.img.a5a21181-a211-442b-a394-fb587ad58bd1.jpg"/>
-        <div id="nkwrapper">
-            <div id="nkstatic-text">Build Better </div>
-            <ul id="nkdynamic-text">
-                <li><span>skills</span></li>
-                <li><span>producs</span></li>
-                <li><span>workflows</span></li>
-                <li><span>processes</span></li>
-            </ul>
-           
-        </div>
-        <div id="nkTxt">Your customers won’t settle and neither should you. With Pluralsight, technology teams know more and work better together. Develop the skills you need for your top priorities. Improve workflows with actionable data. Build better—every time.</div>
-        
-        <div id="nkbtn">
-            <a href="#" id="nk1">VIEW PLANS</a>
-            <a id="nk2">TRY FOR FREE</a>
-        </div>
-    </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document Nav-Footer</title>
+    <link rel="stylesheet" href="finalhome.css" />
+    <link rel="stylesheet" href="GpNavFooter.css" />
+    <script
+      src="https://kit.fontawesome.com/683b4b40e3.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <!-- ..........2nd div................................... -->
+    <style></style>
+  </head>
+  <body>
+    <div class="fixed-top"><div id="gHeader"></div></div>
+    <div id="gMatter"></div>
+    <div class=""><div id="gFooter"></div></div>
+  </body>
+  <script src="GpNavFooter.js"></script>
+  <script src="FinalHome.js"></script>
 
-    <div id="nkSecondDiv">
-        <div id="nkleft">
-            <a href="#">
-            <div id="1">
-                <div id="nkText">
-                    <p>PATH</p>
-                    <h2>JavaScript</h2>
-                    <h3>11 <span>Courses</span></h3>
-                    <h4>Take alook <span>  <i class="fas fa-chevron-right"></i></span></h4>
-                </div>
-                <div id="nkImg">
-                    <img src="https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png"/>
-                </div>
-            </div>
-            </a>
+  <script type="module">
+    import header from "./Components/gHeader.js";
+    import footer from "./Components/gFooter.js";
+    import matter from "./Components/gMatter.js";
 
-            <a href="#">
-            <div id="2">
-                <div id="nkText">
-                    <p>PATH</p>
-                    <h2>Angular</h2>
-                    <h3>14 <span>Courses</span></h3>
-                    <h4>Take alook<span>  <i class="fas fa-chevron-right"></i></span></h4>
-                </div>
-                <div id="nkImg">
-                    <img src="https://pluralsight.imgix.net/paths/path-icons/angular-14a0f6532f.png"/>
-                </div>
-            </div>
-            </a>
+    document.getElementById("gHeader").innerHTML = header();
+    document.getElementById("gFooter").innerHTML = footer();
+    document.getElementById("gMatter").innerHTML = matter();
 
-            <a href="#">
-            <div id="3">
-                <div id="nkText">
-                    <p>PATH</p>
-                    <h2>Core Python</h2>
-                    <h3>12 <span>Courses</span></h3>
-                    <h4>Take alook<span>  <i class="fas fa-chevron-right"></i></span></h4>
-                </div>
-                <div id="nkImg">
-                    <img src="https://pluralsight.imgix.net/paths/python-7be70baaac.png"/>
-                </div>
-            </div>
-            </a>
-
-            <a href="#">
-            <div id="4">
-                <div id="nkText">
-                    <p>PATH</p>
-                    <h2>C#</h2>
-                    <h3>19 <span>Courses</span></h3>
-                    <h4>Take alook<span>  <i class="fas fa-chevron-right"></i></span></h4>
-                </div>
-                <div id="nkImg">
-                    <img src="https://pluralsight.imgix.net/paths/path-icons/csharp-e7b8fcd4ce.png?"/>
-                </div>
-            </div>
-            </a>
-        </div>
-        <div id="nkright">
-            <h2>TRENDING TECHNOLOGIES</h2>
-            <h1>Popular topics<br>to learn now</h1>
-            <h3>Not sure what technologies to focus on? The Technology Index ranks<br> 850+ technologies by their relative popularity. See what’s topping the<br> charts and get recommended courses to skill up. </h3>
-            <h3>View the index<span>  <i class="fas fa-chevron-right"></i></span></h3>
-        </div>
-
-    </div>
-
-    
-    <!-- ..........3rd div................................... -->
-
-    <div id="nkThirdDiv">
-    <h2>SEE WHAT'S NEW</h2>
-    <h1>Our latest features</h1>
-    <div id="nkSkills">
-        <div id="nkSkillsText">
-
-            <div id="nkSkillsLogo">
-                <div><img src="https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png"/></div>
-                <h2>LABs</h2>
-            </div>
-
-            <div id="nkSkillsHeading">
-                <h2>Create better cloud outcomes with hands-on experience</h2>
-            </div>
-
-            <div id="nkSkillText">
-                <h3>Your teams need the right skills and a place to practice to ensure they’re ready to deliver on your cloud objectives. Labs enable learners to get hands-on practice in a provisioned cloud environment in AWS, Azure and Google Cloud (Google Cloud powered by Quiklabs).</h3>
-            </div>
-
-            <div id="nkSkillsLink">
-                <h2>Learn more<span>  <i class="fas fa-chevron-right"></i></span></h2>
-            </div>
-
-        </div>
-        <div id="nkSkillsImg">
-            <img src="https://www.pluralsight.com/content/dam/pluralsight2/homepage/Cloud-labs-image2x.png"/>
-        </div>
-    </div>
-
-    <div id="nkModuleDiv">
-        <div id="nkM1">
-            <!-- <div id="nkCert"> -->
-                <img src="https://www.pluralsight.com/content/dam/pluralsight2/product/v2/logos/logo-skills.png"/>
-                <h1>Empower your teams to grow their skills and their careers</h1>
-                <h3>Prepare your team for certification exams with our expert authored content and practice exams.</h3>
-                <h3>Learn more<span>  <i class="fas fa-chevron-right"></i></span></h3>
-            <!-- </div> -->
-
-        </div>
-        <div id="nkM2">
-            <!-- <div id="nkDelivery"> -->
-                <img src="https://www.pluralsight.com/content/dam/pluralsight2/homepage/delivery-module.png"/>
-                <h1>Make lasting workflow improvements with insights from your Jira data</h1>
-                <h3>Go beyond Jira data and get visibility into what’s happening within your user stories, tasks and bugs. Flow’s delivery module helps you better understand how your team is working and can make lasting improvements to your workflow.</h3>
-                <h3>Learn more<span>  <i class="fas fa-chevron-right"></i></span></h3>
-            <!-- </div> -->
-
-        </div>
-        <div id="nkM3">
-            <!-- <div id="nkSandbox"> -->
-                <img src="https://www.pluralsight.com/content/dam/pluralsight2/homepage/sandboxes.png"/>
-                <h1>Utilize a space for unrestricted exploration</h1>
-                <h3>Sandboxes gives your team a safe environment to practice what they're learning from expert-authored courses.</h3>
-                <h3>Learn more<span>  <i class="fas fa-chevron-right"></i></span></h3>
-            <!-- </div> -->
-
-        </div>
-    </div>
-
-    </div>
-
-    
-</body>
+    /* header Scriping */
+  </script>
 </html>
