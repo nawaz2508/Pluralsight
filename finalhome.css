@@ -573,7 +573,7 @@ section::-webkit-scrollbar {
     display: inline-flex;
     position: relative;
     top: -82%;
-    left: 43%;
+    left: 5%;
 }
 
 #nkFirstDiv {
@@ -583,17 +583,20 @@ section::-webkit-scrollbar {
 }
 
 #nkFirstDiv>img {
-    /* width: 80%; */
+    width: 99%;
     height: 100%;
     position: relative;
-    left: -37%;
+    padding: 2%;
+    /* left: -37%; */
 
 }
 
+
 #nkstatic-text {
     font-size: 60px;
-    color: white;
+    /* color: white; */
     font-weight: bold;
+    color: black
 }
 
 #nkdynamic-text {
@@ -603,12 +606,14 @@ section::-webkit-scrollbar {
     line-height: 70px;
     overflow: hidden;
     font-weight: bold;
+    
+
 }
 
 #nkdynamic-text li {
+    
     list-style: none;
     font-size: 60px;
-    color: white;
     position: relative;
     top: 0;
     animation: slide 5s steps(5) infinite;
@@ -623,12 +628,14 @@ section::-webkit-scrollbar {
 
 #nkdynamic-text li span {
     position: relative;
+    /* color:rgb(32, 4, 110) !important; */
+    font-weight: bold;
+
 }
 
 #nkdynamic-text li span::after {
     content: "";
     position: absolute;
-
     height: 100%;
     width: 100%;
 
@@ -639,7 +646,9 @@ section::-webkit-scrollbar {
     font-size: 21px;
     position: relative;
     top: -80%;
-    left: 43%;
+    left: 5%;
+    color: black;
+    font-weight: bold;
 }
 
 #nkbtn {
@@ -649,7 +658,7 @@ section::-webkit-scrollbar {
     height: 50px;
     position: relative;
     top: -60%;
-    left: 43%;
+    left: 5%;
 }
 
 #nkbtn>a {
@@ -659,6 +668,9 @@ section::-webkit-scrollbar {
     padding: 12px;
     color: white;
     width: 180px;
+    font-weight: bold;
+    padding: 2%;
+
 }
 
 #nk1 {

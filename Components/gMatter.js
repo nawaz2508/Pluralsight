@@ -6,7 +6,7 @@ function gMatter(){
 
 <!-- ..........1st div................................... -->
 <div id="nkFirstDiv">
-    <img src="https://www.pluralsight.com/content/pluralsight/en/jcr:content/main/generic_block_copy_c_1058486430/image-res.img.a5a21181-a211-442b-a394-fb587ad58bd1.jpg"/>
+    <img src="https://img.ksl.com/slc/2803/280385/28038587.jpeg?filter=ksl/1600x900"/>
     <div id="nkwrapper">
         <div id="nkstatic-text">Build Better </div>
         <ul id="nkdynamic-text">
